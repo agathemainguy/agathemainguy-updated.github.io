@@ -1,0 +1,35 @@
+.round {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: none;
+}
+
+.pict {
+	display: block;
+  	margin: 0;
+  	padding: 0;
+  	vertical-align: middle;
+  	text-align: center;
+}
+
+.inner img {
+	position: absolute;
+	left: -135px;
+	margin: 0;
+  	padding: 0;
+  	vertical-align: middle;
+  	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+#header_wrap .inner {
+  padding: 30px 10px 20px 10px;
+}
+
+#main_content {
+  padding-top: 10px;
+}
