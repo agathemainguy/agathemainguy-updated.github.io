@@ -26,6 +26,10 @@ p {
 	text-align: justify;
 }
 
+#header_wrap {
+	background-color: #4D006C;
+}
+
 #header_wrap .inner {
   padding: 30px 10px 20px 10px;
 }
