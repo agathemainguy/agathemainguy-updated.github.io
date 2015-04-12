@@ -26,14 +26,63 @@ p {
 	text-align: justify;
 }
 
+a {
+	color: #FF73BF;
+}
+
+h3 {
+	color: #69003F;
+}
+
+.frame {
+	border:1px solid #262029;
+}
+
 #header_wrap {
 	background-color: #4D006C;
 }
 
 #header_wrap .inner {
-  padding: 30px 10px 20px 10px;
+  	padding: 30px 10px 20px 10px;
 }
 
 #main_content {
-  padding-top: 10px;
+ 	padding-top: 30px;
 }
+
+#menu {
+	position: relative;
+	text-align: right;
+	max-width: 640px;
+	padding: 2px;
+	color: #8FA3AD;
+	background-color: #262029;
+}
+
+/*body {
+	background-image: url('../myimages/staircase-274614_1280.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
+}*/
+
+#main_content_wrap {
+	opacity: 1;
+}
+
+body {
+	color: #262029;
+}
+
+/* 
+#4D006C     violet                #header_wrap
+#FF73BF     rose
+#69003F     fushia (entre deux)   h3
+#262029     presque noir          p
+#8FA3AD bleu gris                 h1     */
+
+
+/*
+
+opacity: 0.6;
+
+*/
