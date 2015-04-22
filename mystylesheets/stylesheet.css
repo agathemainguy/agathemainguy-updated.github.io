@@ -387,7 +387,7 @@ Small Device Styles
   	text-align: center;
 }
 
-.inner img {
+.leftSide {
 	position: absolute;
 	left: -135px;
 	margin: 0;
@@ -443,7 +443,10 @@ body {
     background-attachment: fixed;
 }
 
-
+.icon {
+	float: right;
+	margin: 0 0 0 10px;
+}
 
 /* 
 #4D006C     violet                #header_wrap
