@@ -427,6 +427,14 @@ h3 {
 	background-color: #262029;
 }
 
+#menu a span {
+	display:none; 
+}
+
+#menu a:hover span {
+	display: block;
+}
+
 /*body {
 	background-image: url('../myimages/staircase-274614_1280.jpg');
 	background-repeat: no-repeat;
