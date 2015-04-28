@@ -401,6 +401,14 @@ p {
 	margin: 0 0 5px 0;
 }
 
+p.first {
+	margin-top: 10px;
+}
+
+p.clear {
+	clear: both;
+}
+
 a {
 	color: #FF73BF;
 }
@@ -416,6 +424,9 @@ h3 {
 
 #header_wrap {
 	/*background-color: #4D006C;*/
+	background-image: url("../myimages/curves.png");
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 
 #menu {
