@@ -131,7 +131,7 @@ strong {
   font-weight: bold;
 }
 
-img {
+img.boxed {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -424,9 +424,9 @@ h3 {
 
 #header_wrap {
 	/*background-color: #4D006C;*/
-	background-image: url("../myimages/curves.png");
+	/*background-image: url("../myimages/curves.png");
     background-position: right top;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 #menu {
@@ -469,6 +469,18 @@ body {
 
 blockquote {
 	margin-top: 10px;
+}
+
+img.fixedLeft {
+	position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+img.fixedRight {
+	position: fixed;
+    top: 0px;
+    right: 0px;
 }
 
 /* 
