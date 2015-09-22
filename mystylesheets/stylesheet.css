@@ -483,6 +483,10 @@ img.fixedRight {
     right: 0px;
 }
 
+.emptySpace {
+  height: 200px;
+}
+
 /* 
 #4D006C     violet                #header_wrap
 #FF73BF     rose
