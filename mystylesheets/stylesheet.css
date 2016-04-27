@@ -50,7 +50,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -73,6 +73,7 @@ h2 {
   padding-bottom: 10px;
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
+/*  text-align: right;*/
 }
 
 h3 {
@@ -264,9 +265,14 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
   padding: 10px 20px 10px 20px; /*padding: 20px 10px;*/
   margin: 0 auto;
+}
+
+#main_content {
+    padding-bottom: 20px;
+    margin-bottom: 55px;
 }
 
 
@@ -289,6 +295,7 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+/*  text-align: right;*/
 }
 
 #project_tagline {
@@ -315,7 +322,6 @@ Full-Width Styles
 #footer_wrap {
   background: #212121;
 }
-
 
 
 /*******************************************************************************
@@ -393,7 +399,7 @@ Small Device Styles
 	margin: 0;
   	padding: 0;
   	vertical-align: middle;
-  	text-align: center;
+    float: left;
 }
 
 p {
@@ -413,7 +419,7 @@ a {
 	color: #FF73BF;
 }
 
-h3 {
+h2, h3 {
 	color: #69003F;
 	margin: 10px 0 0 0;
 }
@@ -432,7 +438,7 @@ h3 {
 #menu {
 	position: relative;
 	text-align: center;
-	max-width: 640px;
+	max-width: 800px;
 	padding: 0 20px 0 20px;
 	color: #8FA3AD;
 	background-color: #262029;
@@ -494,9 +500,37 @@ img.fixedRight {
 #262029     presque noir          p
 #8FA3AD bleu gris                 h1     */
 
+.social img {
+    vertical-align: middle;
+}
 
 /*
 
 opacity: 0.6;
 
 */
+#alacarte {
+    background-color: #f2f2f2;
+    text-align: right;
+    padding: 20px 10px 10px 10px;
+    left: -215px;
+    top: 0px;
+    width: 180px
+}
+
+.disclaimer {
+    font-size: 14px;
+}
+
+body {
+    min-width: 1240px;
+}
+
+#news {
+    background-color: #f2f2f2;
+    text-align: right;
+    padding: 20px 10px 10px 10px;
+    left: -215px;
+    top: 450px;
+    width: 180px
+}
